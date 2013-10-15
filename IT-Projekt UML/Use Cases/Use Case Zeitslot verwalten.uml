@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TEAswDWKEeO3ZYkrJP-erw" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TnLrQDWKEeO3ZYkrJP-erw" name="Fakultätsmitarbeiter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VIoP4DWKEeO3ZYkrJP-erw" name="Zeitslot verwalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WgOU8DWKEeO3ZYkrJP-erw" name="Zeitslot anlegen">
+    <generalization xmi:id="_L5KaMDWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZYjM8DWKEeO3ZYkrJP-erw" name="Zeitslot editieren">
+    <generalization xmi:id="_MrfPADWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aOR7EDWKEeO3ZYkrJP-erw" name="Attribute befüllen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hoFaMDWKEeO3ZYkrJP-erw" name="Zeitslot speichern"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_n7eD0DWKEeO3ZYkrJP-erw" name="Attribute bearbeiten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r6rrYDWKEeO3ZYkrJP-erw" name="Geänderten Zeitslot speichern"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4oezsDWKEeO3ZYkrJP-erw" name="Zeitslot löschen">
+    <generalization xmi:id="_Nz5okDWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JvMdADWLEeO3ZYkrJP-erw" name="A_fakultätsmitarbeiter_zeitslot verwalten" memberEnd="_JvMdATWLEeO3ZYkrJP-erw _JvMdBDWLEeO3ZYkrJP-erw">
+    <ownedEnd xmi:id="_JvMdATWLEeO3ZYkrJP-erw" name="fakultätsmitarbeiter" type="_TnLrQDWKEeO3ZYkrJP-erw" association="_JvMdADWLEeO3ZYkrJP-erw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JvMdAjWLEeO3ZYkrJP-erw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvMdAzWLEeO3ZYkrJP-erw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_JvMdBDWLEeO3ZYkrJP-erw" name="zeitslot verwalten" type="_VIoP4DWKEeO3ZYkrJP-erw" association="_JvMdADWLEeO3ZYkrJP-erw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JvMdBTWLEeO3ZYkrJP-erw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvMdBjWLEeO3ZYkrJP-erw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

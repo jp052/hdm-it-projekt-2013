@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xQUgEDWaEeO3ZYkrJP-erw" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_BjbiMDWbEeO3ZYkrJP-erw" type="2011" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BjbiMjWbEeO3ZYkrJP-erw" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BjcJQDWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BjcJQTWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BjcJQjWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BjcJQzWbEeO3ZYkrJP-erw" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BjcJRDWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BjcJRTWbEeO3ZYkrJP-erw" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BjcJRjWbEeO3ZYkrJP-erw" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BjcJRzWbEeO3ZYkrJP-erw" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BjcJSDWbEeO3ZYkrJP-erw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BjcJSTWbEeO3ZYkrJP-erw" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BjcJSjWbEeO3ZYkrJP-erw" x="20" y="80"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_BjZtADWbEeO3ZYkrJP-erw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BjbiMTWbEeO3ZYkrJP-erw" x="9" y="225"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Pr__YDWbEeO3ZYkrJP-erw" type="2016" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pr__YzWbEeO3ZYkrJP-erw" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pr__ZDWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pr__ZTWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pr__ZjWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pr__ZzWbEeO3ZYkrJP-erw" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pr__aDWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PsAmcDWbEeO3ZYkrJP-erw" type="5025"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PsAmcTWbEeO3ZYkrJP-erw" type="7013">
+      <children xmi:type="notation:Shape" xmi:id="_CFd4QDWbEeO3ZYkrJP-erw" type="2013" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CFd4QjWbEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CFefUDWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CFefUTWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CFefUjWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CFefUzWbEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CFefVDWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CFefVTWbEeO3ZYkrJP-erw" type="5016"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CFefVjWbEeO3ZYkrJP-erw" type="7009">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CFefVzWbEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CFefWDWbEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFefWTWbEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_CFcDEDWbEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CFd4QTWbEeO3ZYkrJP-erw" x="22" y="128"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JjrWQDWbEeO3ZYkrJP-erw" type="2013" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jjr9UDWbEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jjr9UTWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jjr9UjWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jjr9UzWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jjr9VDWbEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jjr9VTWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Jjr9VjWbEeO3ZYkrJP-erw" type="5016"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Jjr9VzWbEeO3ZYkrJP-erw" type="7009">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Jjr9WDWbEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Jjr9WTWbEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jjr9WjWbEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_Jjo6ADWbEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjrWQTWbEeO3ZYkrJP-erw" x="22" y="245"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KIKjYDWbEeO3ZYkrJP-erw" type="2013" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KIKjYjWbEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KILKcDWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KILKcTWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KILKcjWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KILKczWbEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KILKdDWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_KILKdTWbEeO3ZYkrJP-erw" type="5016"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_KILKdjWbEeO3ZYkrJP-erw" type="7009">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_KILKdzWbEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_KILKeDWbEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KILKeTWbEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_KIHgEDWbEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KIKjYTWbEeO3ZYkrJP-erw" x="22" y="14"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_krvvwDWbEeO3ZYkrJP-erw" type="3012" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_krwW0DWbEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_krwW0TWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_krwW0jWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_krwW0zWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_krwW1DWbEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_krwW1TWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_krwW1jWbEeO3ZYkrJP-erw" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_krwW1zWbEeO3ZYkrJP-erw" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_krwW2DWbEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_krwW2TWbEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_krwW2jWbEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_krt6kDWbEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_krvvwTWbEeO3ZYkrJP-erw" x="256" y="-24"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_1-DlEDWbEeO3ZYkrJP-erw" type="3012" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1-EMIDWbEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1-EMITWbEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1-EMIjWbEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1-EMIzWbEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1-EMJDWbEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1-EMJTWbEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1-EMJjWbEeO3ZYkrJP-erw" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1-EMJzWbEeO3ZYkrJP-erw" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_1-EMKDWbEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_1-EMKTWbEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1-EMKjWbEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_1-Bv4DWbEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1-DlETWbEeO3ZYkrJP-erw" x="265" y="50"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_naGW8DWcEeO3ZYkrJP-erw" type="3012" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naG-ADWcEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_naG-ATWcEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naG-AjWcEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_naG-AzWcEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naG-BDWcEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_naG-BTWcEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_naG-BjWcEeO3ZYkrJP-erw" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_naG-BzWcEeO3ZYkrJP-erw" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_naG-CDWcEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_naG-CTWcEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_naG-CjWcEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_naD6sDWcEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_naGW8TWcEeO3ZYkrJP-erw" x="265" y="122"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sGdYYDWcEeO3ZYkrJP-erw" type="3012" fontName="Lucida Grande" fontHeight="11" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sGd_cDWcEeO3ZYkrJP-erw" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sGd_cTWcEeO3ZYkrJP-erw" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sGd_cjWcEeO3ZYkrJP-erw" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sGd_czWcEeO3ZYkrJP-erw" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sGd_dDWcEeO3ZYkrJP-erw" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sGd_dTWcEeO3ZYkrJP-erw" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_sGd_djWcEeO3ZYkrJP-erw" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_sGd_dzWcEeO3ZYkrJP-erw" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_sGd_eDWcEeO3ZYkrJP-erw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_sGd_eTWcEeO3ZYkrJP-erw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGd_ejWcEeO3ZYkrJP-erw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_sGaVEDWcEeO3ZYkrJP-erw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGdYYTWcEeO3ZYkrJP-erw" x="265" y="194"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PsAmcjWbEeO3ZYkrJP-erw"/>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_Pr__YTWbEeO3ZYkrJP-erw"/>
+    <element xmi:type="uml:Package" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_Pru5oDWbEeO3ZYkrJP-erw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pr__YjWbEeO3ZYkrJP-erw" x="216" y="63" width="523" height="496"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xQUgETWaEeO3ZYkrJP-erw"/>
+  <element xmi:type="uml:Model" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_xQT5ADWaEeO3ZYkrJP-erw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Zr6IoDWcEeO3ZYkrJP-erw" type="4011" source="_BjbiMDWbEeO3ZYkrJP-erw" target="_KIKjYDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Zr6vsDWcEeO3ZYkrJP-erw" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zr6vsTWcEeO3ZYkrJP-erw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Zr6vsjWcEeO3ZYkrJP-erw" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zr6vszWcEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zr6IoTWcEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_Zr3sYDWcEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zr6IojWcEeO3ZYkrJP-erw" points="[40, -29, -128, 91]$[149, -122, -19, -2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZsAPQDWcEeO3ZYkrJP-erw" id="(0.12121212121212122,0.36666666666666664)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_avXJsDWcEeO3ZYkrJP-erw" type="4011" source="_BjbiMDWbEeO3ZYkrJP-erw" target="_CFd4QDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_avXwwDWcEeO3ZYkrJP-erw" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_avXwwTWcEeO3ZYkrJP-erw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_avXwwjWcEeO3ZYkrJP-erw" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_avXwwzWcEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_avXJsTWcEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_avV7kDWcEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_avXJsjWcEeO3ZYkrJP-erw" points="[40, 4, -140, 0]$[144, 3, -36, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_avcpQDWcEeO3ZYkrJP-erw" id="(0.17560975609756097,0.48333333333333334)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_be-owDWcEeO3ZYkrJP-erw" type="4011" source="_BjbiMDWbEeO3ZYkrJP-erw" target="_JjrWQDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_be_24DWcEeO3ZYkrJP-erw" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_be_24TWcEeO3ZYkrJP-erw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_be_24jWcEeO3ZYkrJP-erw" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_be_24zWcEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_be-owTWcEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_be9aoDWcEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_be-owjWcEeO3ZYkrJP-erw" points="[20, 13, -131, -85]$[146, 97, -5, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bfF9gDWcEeO3ZYkrJP-erw" id="(0.5,0.7833333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bfF9gTWcEeO3ZYkrJP-erw" id="(0.03553299492385787,0.38333333333333336)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LXHicDWeEeO3ZYkrJP-erw" type="4010" source="_krvvwDWbEeO3ZYkrJP-erw" target="_KIKjYDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LXIJgDWeEeO3ZYkrJP-erw" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LXIJgTWeEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LXHicTWeEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_LXGUUDWeEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LXHicjWeEeO3ZYkrJP-erw" points="[-7, 3, 52, -30]$[-49, 31, 10, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LXNCADWeEeO3ZYkrJP-erw" id="(0.04,0.43333333333333335)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LXNCATWeEeO3ZYkrJP-erw" id="(0.9191919191919192,0.35)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MX7fMDWeEeO3ZYkrJP-erw" type="4010" source="_1-DlEDWbEeO3ZYkrJP-erw" target="_KIKjYDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MX7fMzWeEeO3ZYkrJP-erw" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MX7fNDWeEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MX7fMTWeEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_MX64IDWeEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MX7fMjWeEeO3ZYkrJP-erw" points="[-4, -2, 71, 23]$[-55, -25, 20, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MYAXsDWeEeO3ZYkrJP-erw" id="(0.04891304347826087,0.35)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MYA-wDWeEeO3ZYkrJP-erw" id="(0.8939393939393939,0.5333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_X1WkwDWeEeO3ZYkrJP-erw" type="4010" source="_naGW8DWcEeO3ZYkrJP-erw" target="_CFd4QDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_X1XL0DWeEeO3ZYkrJP-erw" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_X1XL0TWeEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_X1WkwTWeEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_X1V9sDWeEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X1WkwjWeEeO3ZYkrJP-erw" points="[-14, 0, 52, 0]$[-55, -1, 11, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X1aPIDWeEeO3ZYkrJP-erw" id="(0.08,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X1aPITWeEeO3ZYkrJP-erw" id="(0.9317073170731708,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YaFpgDWeEeO3ZYkrJP-erw" type="4010" source="_sGdYYDWcEeO3ZYkrJP-erw" target="_CFd4QDWbEeO3ZYkrJP-erw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YaGQkDWeEeO3ZYkrJP-erw" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YaGQkTWeEeO3ZYkrJP-erw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YaFpgTWeEeO3ZYkrJP-erw" fontName="Lucida Grande" fontHeight="11"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Lehrveranstaltung%20verwalten.uml#_YaFCcDWeEeO3ZYkrJP-erw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YaFpgjWeEeO3ZYkrJP-erw" points="[-1, -1, 65, 56]$[-49, -55, 17, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YaLJEDWeEeO3ZYkrJP-erw" id="(0.005434782608695652,0.5166666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YaLJETWeEeO3ZYkrJP-erw" id="(0.8682926829268293,0.6666666666666666)"/>
+  </edges>
+</notation:Diagram>
