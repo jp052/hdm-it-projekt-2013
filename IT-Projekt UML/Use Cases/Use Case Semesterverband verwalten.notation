@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_2yGxMDXoEeOYF_bN8xmsNQ" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_4Ohr4DXoEeOYF_bN8xmsNQ" type="2011" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4OiS8DXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Oi6ADXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Oi6ATXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Oi6AjXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Oi6AzXoEeOYF_bN8xmsNQ" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Oi6BDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4Oi6BTXoEeOYF_bN8xmsNQ" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4Oi6BjXoEeOYF_bN8xmsNQ" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4OjhEDXoEeOYF_bN8xmsNQ" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4OjhETXoEeOYF_bN8xmsNQ" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4OjhEjXoEeOYF_bN8xmsNQ" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4OjhEzXoEeOYF_bN8xmsNQ" x="20" y="80"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Use%20Case%20Semesterverband%20verwalten.uml#_4OeokDXoEeOYF_bN8xmsNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4Ohr4TXoEeOYF_bN8xmsNQ" x="53" y="288"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4i4LQDXoEeOYF_bN8xmsNQ" type="2016" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4i5ZYDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4i5ZYTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4i5ZYjXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4i5ZYzXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4i5ZZDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4i6AcDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4i6AcTXoEeOYF_bN8xmsNQ" type="5025"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4i6AcjXoEeOYF_bN8xmsNQ" type="7013">
+      <children xmi:type="notation:Shape" xmi:id="_5MZCUDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MZpYDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MaQcDXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MaQcTXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MaQcjXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5MaQczXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5MaQdDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5Ma3gDXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5Ma3gTXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5Ma3gjXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5Ma3gzXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Ma3hDXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_5MVX8DXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5MZCUTXoEeOYF_bN8xmsNQ" x="56" y="31"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5VhwMDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ViXQDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5ViXQTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ViXQjXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5ViXQzXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ViXRDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5ViXRTXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5ViXRjXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5ViXRzXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5ViXSDXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5ViXSTXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ViXSjXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_5VgiEDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5VhwMTXoEeOYF_bN8xmsNQ" x="44" y="195"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5dCGYDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5dCGYjXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5dCGYzXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5dCGZDXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5dCGZTXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5dCGZjXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5dCGZzXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5dCtcDXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5dCtcTXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5dCtcjXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5dCtczXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5dCtdDXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_5dARMDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5dCGYTXoEeOYF_bN8xmsNQ" x="44" y="355"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6rAVYDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6rA8cDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rBjgDXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6rBjgTXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rBjgjXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6rBjgzXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rBjhDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6rCKkDXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6rCKkTXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_6rCKkjXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_6rCKkzXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rCKlDXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_6q_HQDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6rAVYTXoEeOYF_bN8xmsNQ" x="304" y="-2"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6ynZQDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ynZQjXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ynZQzXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ynZRDXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ynZRTXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ynZRjXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6yoAUDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6yoAUTXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6yoAUjXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_6yoAUzXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_6yoAVDXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yoAVTXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_6ylkEDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ynZQTXoEeOYF_bN8xmsNQ" x="299" y="73"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_67scwDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_67tD0DXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_67tD0TXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_67tD0jXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_67tD0zXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_67tD1DXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_67tD1TXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_67tD1jXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_67tD1zXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_67tD2DXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_67tD2TXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_67tD2jXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_67qnkDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_67scwTXoEeOYF_bN8xmsNQ" x="304" y="163"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7Dz28DXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7D0eADXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7D0eATXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7D0eAjXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7D0eAzXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7D0eBDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7D0eBTXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7D0eBjXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7D0eBzXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7D0eCDXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7D0eCTXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7D0eCjXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Semesterverband%20verwalten.uml#_7Dyo0DXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Dz28TXoEeOYF_bN8xmsNQ" x="294" y="243"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4i6AczXoEeOYF_bN8xmsNQ"/>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_4i4LQTXoEeOYF_bN8xmsNQ"/>
+    <element xmi:type="uml:Package" href="Use%20Case%20Semesterverband%20verwalten.uml#_4i0g4DXoEeOYF_bN8xmsNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4i4LQjXoEeOYF_bN8xmsNQ" x="246" y="90" width="615" height="451"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_2yGxMTXoEeOYF_bN8xmsNQ"/>
+  <element xmi:type="uml:Model" href="Use%20Case%20Semesterverband%20verwalten.uml#_2yGKIDXoEeOYF_bN8xmsNQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_8V5w8DXoEeOYF_bN8xmsNQ" type="4011" source="_4Ohr4DXoEeOYF_bN8xmsNQ" target="_5MZCUDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8V7mIDXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8V7mITXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8V7mIjXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8V7mIzXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8V5w8TXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Semesterverband%20verwalten.uml#_8V2toDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8V5w8jXoEeOYF_bN8xmsNQ" points="[40, -25, -188, 113]$[214, -138, -14, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8WHMUDXoEeOYF_bN8xmsNQ" id="(0.1,0.5333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8tejcDXoEeOYF_bN8xmsNQ" type="4011" source="_4Ohr4DXoEeOYF_bN8xmsNQ" target="_5VhwMDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8tgYoDXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8tgYoTXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8tgYojXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8tgYozXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8tejcTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Semesterverband%20verwalten.uml#_8tbgIDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8tejcjXoEeOYF_bN8xmsNQ" points="[40, 4, -232, -20]$[202, 28, -70, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8_KwYDXoEeOYF_bN8xmsNQ" type="4011" source="_4Ohr4DXoEeOYF_bN8xmsNQ" target="_5dCGYDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8_L-gDXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8_MlkDXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8_MlkTXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8_MlkjXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8_KwYTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Semesterverband%20verwalten.uml#_8_HtEDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8_KwYjXoEeOYF_bN8xmsNQ" points="[36, 30, -187, -154]$[202, 184, -21, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8_WWkDXoEeOYF_bN8xmsNQ" id="(0.15,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9YCjYDXoEeOYF_bN8xmsNQ" type="4010" source="_6rAVYDXoEeOYF_bN8xmsNQ" target="_5MZCUDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9YDxgDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9YDxgTXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9YCjYTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Semesterverband%20verwalten.uml#_9YAuMDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9YCjYjXoEeOYF_bN8xmsNQ" points="[-14, 3, 123, -22]$[-68, 28, 69, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9YP-wDXoEeOYF_bN8xmsNQ" id="(0.1,0.4666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9iYyMDXoEeOYF_bN8xmsNQ" type="4010" source="_6ynZQDXoEeOYF_bN8xmsNQ" target="_5MZCUDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9iaAUDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9ianYDXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9iYyMTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Semesterverband%20verwalten.uml#_9iW9ADXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9iYyMjXoEeOYF_bN8xmsNQ" points="[-9, -4, 68, 34]$[-75, -38, 2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9imNkDXoEeOYF_bN8xmsNQ" id="(0.08571428571428572,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9imNkTXoEeOYF_bN8xmsNQ" id="(0.9785714285714285,0.5333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-CJQUDXoEeOYF_bN8xmsNQ" type="4010" source="_7Dz28DXoEeOYF_bN8xmsNQ" target="_5VhwMDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-CJ3YDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-CJ3YTXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-CJQUTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Semesterverband%20verwalten.uml#_-CIpQDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-CJQUjXoEeOYF_bN8xmsNQ" points="[-9, -5, 84, 45]$[-82, -50, 11, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-COv4DXoEeOYF_bN8xmsNQ" id="(0.07857142857142857,0.43333333333333335)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-COv4TXoEeOYF_bN8xmsNQ" id="(0.9142857142857143,0.5666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LRauADXpEeOYF_bN8xmsNQ" type="4010" source="_67scwDXoEeOYF_bN8xmsNQ" target="_5VhwMDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LRb8IDXpEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LRb8ITXpEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LRauATXpEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Semesterverband%20verwalten.uml#_LRY40DXpEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LRauAjXpEeOYF_bN8xmsNQ" points="[-16, 1, 162, -28]$[-116, 5, 62, -24]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LRm7QDXpEeOYF_bN8xmsNQ" id="(0.11428571428571428,0.55)"/>
+  </edges>
+</notation:Diagram>

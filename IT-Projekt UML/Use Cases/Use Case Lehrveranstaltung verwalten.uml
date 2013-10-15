@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xQT5ADWaEeO3ZYkrJP-erw" name="model">
   <packagedElement xmi:type="uml:Actor" xmi:id="_BjZtADWbEeO3ZYkrJP-erw" name="Fakultätsmitarbeiter"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_Pru5oDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung verwalten">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_CFcDEDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung editieren"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Jjo6ADWbEeO3ZYkrJP-erw" name="Lehrveranstaltung löschen"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_KIHgEDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung anlegen"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_krt6kDWbEeO3ZYkrJP-erw" name="LV Attribute bearbeiten">
-      <generalization xmi:type="uml:Generalization" xmi:id="_LXGUUDWeEeO3ZYkrJP-erw" general="_KIHgEDWbEeO3ZYkrJP-erw"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Pru5oDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung  verwalten">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CFcDEDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung  editieren"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Jjo6ADWbEeO3ZYkrJP-erw" name="Lehrveranstaltung  löschen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KIHgEDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung  anlegen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_krt6kDWbEeO3ZYkrJP-erw" name="Lehrveranstaltung Attribute befüllen">
+      <generalization xmi:type="uml:Generalization" xmi:id="_eVWyoDXhEeOYF_bN8xmsNQ" general="_KIHgEDWbEeO3ZYkrJP-erw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_1-Bv4DWbEeO3ZYkrJP-erw" name="LV speichern">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1-Bv4DWbEeO3ZYkrJP-erw" name="Neuen Lehrveranstaltung speichern">
       <generalization xmi:type="uml:Generalization" xmi:id="_MX64IDWeEeO3ZYkrJP-erw" general="_KIHgEDWbEeO3ZYkrJP-erw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_naD6sDWcEeO3ZYkrJP-erw" name="LV Attribute bearbeiten">
-      <generalization xmi:type="uml:Generalization" xmi:id="_X1V9sDWeEeO3ZYkrJP-erw" general="_CFcDEDWbEeO3ZYkrJP-erw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_naD6sDWcEeO3ZYkrJP-erw" name="Lehrveranstaltung Attribute bearbeiten">
+      <generalization xmi:type="uml:Generalization" xmi:id="_fG4WMDXhEeOYF_bN8xmsNQ" general="_CFcDEDWbEeO3ZYkrJP-erw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_sGaVEDWcEeO3ZYkrJP-erw" name="Bearbeitete LV speichern">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sGaVEDWcEeO3ZYkrJP-erw" name="Bearbeitete Lehrveranstaltung speichern">
       <generalization xmi:type="uml:Generalization" xmi:id="_YaFCcDWeEeO3ZYkrJP-erw" general="_CFcDEDWbEeO3ZYkrJP-erw"/>
     </packagedElement>
   </packagedElement>

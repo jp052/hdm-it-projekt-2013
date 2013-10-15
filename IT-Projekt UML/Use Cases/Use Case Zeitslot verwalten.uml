@@ -1,28 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_TEAswDWKEeO3ZYkrJP-erw" name="model">
-  <packagedElement xmi:type="uml:Actor" xmi:id="_TnLrQDWKEeO3ZYkrJP-erw" name="Fakultätsmitarbeiter"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_VIoP4DWKEeO3ZYkrJP-erw" name="Zeitslot verwalten"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WgOU8DWKEeO3ZYkrJP-erw" name="Zeitslot anlegen">
-    <generalization xmi:id="_L5KaMDWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Z-6SoDXoEeOYF_bN8xmsNQ" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bA9lgDXoEeOYF_bN8xmsNQ" name="Fakultätsmitarbeiter"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bYrh8DXoEeOYF_bN8xmsNQ" name="Zeitslot">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dlHkUDXoEeOYF_bN8xmsNQ" name="Zeitslot anlegen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_d26e8DXoEeOYF_bN8xmsNQ" name="Zeitslot editieren"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eHiU4DXoEeOYF_bN8xmsNQ" name="Zeitslot löschen">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_049o0DXpEeOYF_bN8xmsNQ">
+        <body>Zeitslot</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ffEvkDXoEeOYF_bN8xmsNQ" name="Zeitslot Attribute befüllen">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_2KKyADXpEeOYF_bN8xmsNQ">
+        <body>Zeitslot</body>
+      </ownedComment>
+      <generalization xmi:type="uml:Generalization" xmi:id="_kBEUEDXoEeOYF_bN8xmsNQ" general="_dlHkUDXoEeOYF_bN8xmsNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f1RCADXoEeOYF_bN8xmsNQ" name="Neuen Zeitslot speichern">
+      <generalization xmi:type="uml:Generalization" xmi:id="_kWSWIDXoEeOYF_bN8xmsNQ" general="_dlHkUDXoEeOYF_bN8xmsNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f9ctoDXoEeOYF_bN8xmsNQ" name="Zeitslot Attributen bearbeiten">
+      <generalization xmi:type="uml:Generalization" xmi:id="_kqoOcDXoEeOYF_bN8xmsNQ" general="_d26e8DXoEeOYF_bN8xmsNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gKMJIDXoEeOYF_bN8xmsNQ" name="Bearbteitete Zeitslot speichern">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lAtzMDXoEeOYF_bN8xmsNQ" general="_d26e8DXoEeOYF_bN8xmsNQ"/>
+    </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZYjM8DWKEeO3ZYkrJP-erw" name="Zeitslot editieren">
-    <generalization xmi:id="_MrfPADWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_aOR7EDWKEeO3ZYkrJP-erw" name="Attribute befüllen"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_hoFaMDWKEeO3ZYkrJP-erw" name="Zeitslot speichern"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_n7eD0DWKEeO3ZYkrJP-erw" name="Attribute bearbeiten"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_r6rrYDWKEeO3ZYkrJP-erw" name="Geänderten Zeitslot speichern"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_4oezsDWKEeO3ZYkrJP-erw" name="Zeitslot löschen">
-    <generalization xmi:id="_Nz5okDWLEeO3ZYkrJP-erw" general="_VIoP4DWKEeO3ZYkrJP-erw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_JvMdADWLEeO3ZYkrJP-erw" name="A_fakultätsmitarbeiter_zeitslot verwalten" memberEnd="_JvMdATWLEeO3ZYkrJP-erw _JvMdBDWLEeO3ZYkrJP-erw">
-    <ownedEnd xmi:id="_JvMdATWLEeO3ZYkrJP-erw" name="fakultätsmitarbeiter" type="_TnLrQDWKEeO3ZYkrJP-erw" association="_JvMdADWLEeO3ZYkrJP-erw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JvMdAjWLEeO3ZYkrJP-erw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvMdAzWLEeO3ZYkrJP-erw" value="1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_i5GmcDXoEeOYF_bN8xmsNQ" name="A_actor_usecase" memberEnd="_i5GmcTXoEeOYF_bN8xmsNQ _i5GmdDXoEeOYF_bN8xmsNQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i5GmcTXoEeOYF_bN8xmsNQ" name="actor" type="_bA9lgDXoEeOYF_bN8xmsNQ" association="_i5GmcDXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i5GmcjXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i5GmczXoEeOYF_bN8xmsNQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:id="_JvMdBDWLEeO3ZYkrJP-erw" name="zeitslot verwalten" type="_VIoP4DWKEeO3ZYkrJP-erw" association="_JvMdADWLEeO3ZYkrJP-erw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JvMdBTWLEeO3ZYkrJP-erw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JvMdBjWLEeO3ZYkrJP-erw" value="1"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i5GmdDXoEeOYF_bN8xmsNQ" name="usecase" type="_dlHkUDXoEeOYF_bN8xmsNQ" association="_i5GmcDXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_i5GmdTXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_i5GmdjXoEeOYF_bN8xmsNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jRTEADXoEeOYF_bN8xmsNQ" name="A_actor_usecase1" memberEnd="_jRTEATXoEeOYF_bN8xmsNQ _jRTEBDXoEeOYF_bN8xmsNQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jRTEATXoEeOYF_bN8xmsNQ" name="actor" type="_bA9lgDXoEeOYF_bN8xmsNQ" association="_jRTEADXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jRTEAjXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jRTEAzXoEeOYF_bN8xmsNQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jRTEBDXoEeOYF_bN8xmsNQ" name="usecase1" type="_d26e8DXoEeOYF_bN8xmsNQ" association="_jRTEADXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jRTEBTXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jRTEBjXoEeOYF_bN8xmsNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jpVwkDXoEeOYF_bN8xmsNQ" name="A_actor_usecase2" memberEnd="_jpVwkTXoEeOYF_bN8xmsNQ _jpVwlDXoEeOYF_bN8xmsNQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jpVwkTXoEeOYF_bN8xmsNQ" name="actor" type="_bA9lgDXoEeOYF_bN8xmsNQ" association="_jpVwkDXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jpVwkjXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jpVwkzXoEeOYF_bN8xmsNQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jpVwlDXoEeOYF_bN8xmsNQ" name="usecase2" type="_eHiU4DXoEeOYF_bN8xmsNQ" association="_jpVwkDXoEeOYF_bN8xmsNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jpVwlTXoEeOYF_bN8xmsNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jpVwljXoEeOYF_bN8xmsNQ" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_qQwwgDXoEeOYF_bN8xmsNQ" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_rUW7gDXoEeOYF_bN8xmsNQ" type="2011" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rUYJoDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUYJoTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rUYJojXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUYJozXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rUYJpDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUYJpTXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rUYJpjXoEeOYF_bN8xmsNQ" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rUYwsDXoEeOYF_bN8xmsNQ" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rUYwsTXoEeOYF_bN8xmsNQ" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rUYwsjXoEeOYF_bN8xmsNQ" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rUYwszXoEeOYF_bN8xmsNQ" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rUYwtDXoEeOYF_bN8xmsNQ" x="20" y="80"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_rUTRIDXoEeOYF_bN8xmsNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rUW7gTXoEeOYF_bN8xmsNQ" x="66" y="276"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rsa2MDXoEeOYF_bN8xmsNQ" type="2016" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rscEUDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rscEUTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rscrYDXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rscrYTXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rscrYjXoEeOYF_bN8xmsNQ" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rscrYzXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rscrZDXoEeOYF_bN8xmsNQ" type="5025"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rscrZTXoEeOYF_bN8xmsNQ" type="7013">
+      <children xmi:type="notation:Shape" xmi:id="_uJTvYDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uJU9gDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uJU9gTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uJU9gjXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uJU9gzXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uJU9hDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uJVkkDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uJVkkTXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uJVkkjXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uJVkkzXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uJVklDXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJVklTXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_uJQFADXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJTvYTXoEeOYF_bN8xmsNQ" x="80" y="60"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uWeBoDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uWeosDXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uWeosTXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uWeosjXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uWeoszXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uWeotDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uWeotTXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uWeotjXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uWeotzXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uWeouDXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uWeouTXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWeoujXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_uWczgDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWeBoTXoEeOYF_bN8xmsNQ" x="87" y="210"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ufKqoDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ufKqojXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ufKqozXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ufKqpDXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ufKqpTXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ufLRsDXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ufLRsTXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ufLRsjXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ufLRszXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ufLRtDXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ufLRtTXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufLRtjXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_ufI1cDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufKqoTXoEeOYF_bN8xmsNQ" x="91" y="373"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uqLn0DXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uqLn0jXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uqLn0zXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uqLn1DXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uqLn1TXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uqMO4DXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uqMO4TXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uqMO4jXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_uqMO4zXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_uqMO5DXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_uqMO5TXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uqMO5jXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_uqJyoDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uqLn0TXoEeOYF_bN8xmsNQ" x="345" y="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uxz50DXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ux0g4DXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ux0g4TXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ux0g4jXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ux0g4zXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ux0g5DXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ux0g5TXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ux0g5jXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ux0g5zXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ux0g6DXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ux0g6TXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ux0g6jXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_uxyEoDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uxz50TXoEeOYF_bN8xmsNQ" x="350" y="83"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_u8bOYDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u8bOYjXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u8bOYzXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u8bOZDXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u8bOZTXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u8bOZjXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u8b1cDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u8b1cTXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u8b1cjXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_u8b1czXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_u8b1dDXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8b1dTXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_u8ZZMDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8bOYTXoEeOYF_bN8xmsNQ" x="355" y="183"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_vDuwQDXoEeOYF_bN8xmsNQ" type="3012" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vDuwQjXoEeOYF_bN8xmsNQ" source="ShadowFigure">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vDvXUDXoEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vDvXUTXoEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vDvXUjXoEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vDvXUzXoEeOYF_bN8xmsNQ" source="QualifiedName">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vDvXVDXoEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_vDvXVTXoEeOYF_bN8xmsNQ" type="5022"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_vDvXVjXoEeOYF_bN8xmsNQ" type="7014">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_vDvXVzXoEeOYF_bN8xmsNQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_vDvXWDXoEeOYF_bN8xmsNQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDvXWTXoEeOYF_bN8xmsNQ"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_vDs7EDXoEeOYF_bN8xmsNQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDuwQTXoEeOYF_bN8xmsNQ" x="345" y="268"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rscrZjXoEeOYF_bN8xmsNQ"/>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_rsa2MTXoEeOYF_bN8xmsNQ"/>
+    <element xmi:type="uml:Package" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_rsXL0DXoEeOYF_bN8xmsNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rsa2MjXoEeOYF_bN8xmsNQ" x="220" y="30" width="706" height="476"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_qQwwgTXoEeOYF_bN8xmsNQ"/>
+  <element xmi:type="uml:Model" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_qQwJcDXoEeOYF_bN8xmsNQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_wUrawDXoEeOYF_bN8xmsNQ" type="4011" source="_rUW7gDXoEeOYF_bN8xmsNQ" target="_uJTvYDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wUtP8DXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wUtP8TXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wUtP8jXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wUtP8zXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wUrawTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_wUnwYDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wUrawjXoEeOYF_bN8xmsNQ" points="[40, -28, -178, 123]$[203, -149, -15, 2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wU9uoDXoEeOYF_bN8xmsNQ" id="(0.1357142857142857,0.6333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wiX4gDXoEeOYF_bN8xmsNQ" type="4011" source="_rUW7gDXoEeOYF_bN8xmsNQ" target="_uWeBoDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiYfkDXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiYfkTXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wiYfkjXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wiYfkzXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wiX4gTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_wiXRcDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wiX4gjXoEeOYF_bN8xmsNQ" points="[40, -8, -178, 0]$[206, -8, -12, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wifNQDXoEeOYF_bN8xmsNQ" id="(0.08571428571428572,0.5166666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wwUN4DXoEeOYF_bN8xmsNQ" type="4011" source="_rUW7gDXoEeOYF_bN8xmsNQ" target="_ufKqoDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wwU08DXoEeOYF_bN8xmsNQ" visible="false" type="6008">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wwU08TXoEeOYF_bN8xmsNQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wwU08jXoEeOYF_bN8xmsNQ" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wwU08zXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wwUN4TXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Association" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_wwS_wDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wwUN4jXoEeOYF_bN8xmsNQ" points="[40, 26, -183, -121]$[212, 145, -11, -2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wwbioDXoEeOYF_bN8xmsNQ" id="(0.09285714285714286,0.38333333333333336)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xEoRADXoEeOYF_bN8xmsNQ" type="4010" source="_uqLn0DXoEeOYF_bN8xmsNQ" target="_uJTvYDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xEqGMDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xEqGMTXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xEo4EDXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_xEmb0DXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xEo4ETXoEeOYF_bN8xmsNQ" points="[-9, 3, 127, -43]$[-67, 47, 69, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xEzQIDXoEeOYF_bN8xmsNQ" id="(0.07857142857142857,0.5833333333333334)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xRUCIDXoEeOYF_bN8xmsNQ" type="4010" source="_uxz50DXoEeOYF_bN8xmsNQ" target="_uJTvYDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xRV3UDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xRV3UTXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xRUCITXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_xRSM8DXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xRUCIjXoEeOYF_bN8xmsNQ" points="[-10, -3, 144, 34]$[-84, -37, 70, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRhdgDXoEeOYF_bN8xmsNQ" id="(0.1,0.7166666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xcuA4DXoEeOYF_bN8xmsNQ" type="4010" source="_u8bOYDXoEeOYF_bN8xmsNQ" target="_uWeBoDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xcv2EDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xcv2ETXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xcuA4TXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_xcsLsDXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xcun8DXoEeOYF_bN8xmsNQ" points="[-9, 1, 90, -21]$[-74, 19, 25, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xc7cQDXoEeOYF_bN8xmsNQ" id="(0.06428571428571428,0.43333333333333335)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xc8DUDXoEeOYF_bN8xmsNQ" id="(0.8071428571428572,0.43333333333333335)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xrQzMDXoEeOYF_bN8xmsNQ" type="4010" source="_vDuwQDXoEeOYF_bN8xmsNQ" target="_uWeBoDXoEeOYF_bN8xmsNQ" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xrSoYDXoEeOYF_bN8xmsNQ" type="6032">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xrSoYTXoEeOYF_bN8xmsNQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xrQzMTXoEeOYF_bN8xmsNQ" fontName="Segoe UI"/>
+    <element xmi:type="uml:Generalization" href="Use%20Case%20Fakultätsmitarbeiter%20verwalten.uml#_xrO-ADXoEeOYF_bN8xmsNQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xrQzMjXoEeOYF_bN8xmsNQ" points="[-29, -17, 138, 59]$[-100, -84, 67, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xrbLQDXoEeOYF_bN8xmsNQ" id="(0.20714285714285716,0.7166666666666667)"/>
+  </edges>
+</notation:Diagram>
