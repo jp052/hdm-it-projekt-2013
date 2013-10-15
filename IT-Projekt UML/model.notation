@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_EflBEDXZEeOYF_bN8xmsNQ" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_EflBEDXZEeOYF_bN8xmsNQ" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_V3-3UDXZEeOYF_bN8xmsNQ" type="2013" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4AsgDXZEeOYF_bN8xmsNQ" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4AsgTXZEeOYF_bN8xmsNQ" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4BTkDXZEeOYF_bN8xmsNQ" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4BTkTXZEeOYF_bN8xmsNQ" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4BTkjXZEeOYF_bN8xmsNQ" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4B6oDXZEeOYF_bN8xmsNQ" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_V4B6oTXZEeOYF_bN8xmsNQ" type="5016"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_V4B6ojXZEeOYF_bN8xmsNQ" type="7009">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_V4B6ozXZEeOYF_bN8xmsNQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_V4B6pDXZEeOYF_bN8xmsNQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4B6pTXZEeOYF_bN8xmsNQ"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="model.uml#_V34JoDXZEeOYF_bN8xmsNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V3-3UTXZEeOYF_bN8xmsNQ" x="299" y="227"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_EflBETXZEeOYF_bN8xmsNQ"/>
   <element xmi:type="uml:Model" href="model.uml#_Efjy8DXZEeOYF_bN8xmsNQ"/>
 </notation:Diagram>
