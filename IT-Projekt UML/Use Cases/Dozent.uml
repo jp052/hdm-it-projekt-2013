@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Xa7KwDr9EeOVJLg8WY9pxA" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gA8lYDr9EeOVJLg8WY9pxA" name="Mitarbeiter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hZ-04Dr9EeOVJLg8WY9pxA" name="Dozent Verwalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_i-OO0Dr9EeOVJLg8WY9pxA" name="Dozent Anzeigen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_p7Bo4Dr9EeOVJLg8WY9pxA" general="_hZ-04Dr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jrFU0Dr9EeOVJLg8WY9pxA" name="Dozent Anlegen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_rIxOYDr9EeOVJLg8WY9pxA" general="_hZ-04Dr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_k-2p0Dr9EeOVJLg8WY9pxA" name="Dozent Löschen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_sibI8Dr9EeOVJLg8WY9pxA" general="_i-OO0Dr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lmEa0Dr9EeOVJLg8WY9pxA" name="Dozent Speichern">
+    <generalization xmi:type="uml:Generalization" xmi:id="_07zOsDr9EeOVJLg8WY9pxA" general="_jrFU0Dr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pdzhYDr9EeOVJLg8WY9pxA" name="A_mitarbeiter_usecase" memberEnd="_pdzhYTr9EeOVJLg8WY9pxA _pdzhZDr9EeOVJLg8WY9pxA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pdzhYTr9EeOVJLg8WY9pxA" name="mitarbeiter" type="_gA8lYDr9EeOVJLg8WY9pxA" association="_pdzhYDr9EeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pdzhYjr9EeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pdzhYzr9EeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pdzhZDr9EeOVJLg8WY9pxA" name="usecase" type="_hZ-04Dr9EeOVJLg8WY9pxA" association="_pdzhYDr9EeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pdzhZTr9EeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pdzhZjr9EeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_27M6oDr9EeOVJLg8WY9pxA" name="Dozent Bearbeiten">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5UAlEDr9EeOVJLg8WY9pxA" general="_i-OO0Dr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3FRcoDr9EeOVJLg8WY9pxA" name="Dozent speichern">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5p6joDr9EeOVJLg8WY9pxA" general="_27M6oDr9EeOVJLg8WY9pxA"/>
+  </packagedElement>
+</uml:Model>

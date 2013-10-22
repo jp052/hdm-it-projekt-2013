@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_pUX88DsbEeOlF9lOSOJJIg" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qPEqoDsbEeOlF9lOSOJJIg" name="Mitarbeiter"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rce48DsbEeOlF9lOSOJJIg" name="Stundenplan System"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_M6aBQDscEeOlF9lOSOJJIg" name="Durchführung speichern">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0-HKwDscEeOlF9lOSOJJIg" general="_sAnrUDscEeOlF9lOSOJJIg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UTVWoDscEeOlF9lOSOJJIg" name="Durchführung auswählen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_13RAUDscEeOlF9lOSOJJIg" general="_sAnrUDscEeOlF9lOSOJJIg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WyZaEDscEeOlF9lOSOJJIg" name="Durchführung anlegen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3fka4DscEeOlF9lOSOJJIg" general="_sAnrUDscEeOlF9lOSOJJIg"/>
+    <include xmi:type="uml:Include" xmi:id="_g97Z8DscEeOlF9lOSOJJIg" addition="_bHcuwDscEeOlF9lOSOJJIg"/>
+    <include xmi:type="uml:Include" xmi:id="_--m_UDscEeOlF9lOSOJJIg" addition="_M6aBQDscEeOlF9lOSOJJIg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bHcuwDscEeOlF9lOSOJJIg" name="Durchführung löschen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lxaXEDscEeOlF9lOSOJJIg" name="Durchführung bearbeiten">
+    <generalization xmi:type="uml:Generalization" xmi:id="_20W6sDscEeOlF9lOSOJJIg" general="_sAnrUDscEeOlF9lOSOJJIg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sAnrUDscEeOlF9lOSOJJIg" name="Durchführung verwalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fAaScDseEeOlF9lOSOJJIg" name="A_mitarbeiter_durchführung verwalten" memberEnd="_fAaScTseEeOlF9lOSOJJIg _fAaSdDseEeOlF9lOSOJJIg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fAaScTseEeOlF9lOSOJJIg" name="mitarbeiter" type="_qPEqoDsbEeOlF9lOSOJJIg" association="_fAaScDseEeOlF9lOSOJJIg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fAaScjseEeOlF9lOSOJJIg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAaSczseEeOlF9lOSOJJIg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fAaSdDseEeOlF9lOSOJJIg" name="durchführung verwalten" type="_sAnrUDscEeOlF9lOSOJJIg" association="_fAaScDseEeOlF9lOSOJJIg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fAaSdTseEeOlF9lOSOJJIg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAaSdjseEeOlF9lOSOJJIg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

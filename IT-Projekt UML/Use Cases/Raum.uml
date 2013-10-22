@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_-uyrYDsAEeOVJLg8WY9pxA" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LwJB0DsBEeOVJLg8WY9pxA" name="Actor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MaBsUDsBEeOVJLg8WY9pxA" name="Raum verwalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MrP_MDsBEeOVJLg8WY9pxA" name="UseCase1">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fx3qwDsBEeOVJLg8WY9pxA" general="_MaBsUDsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_M1Q20DsBEeOVJLg8WY9pxA" name="UseCase2">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gNt5QDsBEeOVJLg8WY9pxA" general="_MaBsUDsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NHa90DsBEeOVJLg8WY9pxA" name="UseCase3">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hRitwDsBEeOVJLg8WY9pxA" general="_MrP_MDsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NRHFUDsBEeOVJLg8WY9pxA" name="UseCase4">
+    <generalization xmi:type="uml:Generalization" xmi:id="_eYOXQDsBEeOVJLg8WY9pxA" general="_MrP_MDsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NlFxQDsBEeOVJLg8WY9pxA" name="UseCase5">
+    <generalization xmi:type="uml:Generalization" xmi:id="_deYlMDsBEeOVJLg8WY9pxA" general="_NHa90DsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NyXYQDsBEeOVJLg8WY9pxA" name="UseCase6">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fWU-QDsBEeOVJLg8WY9pxA" general="_M1Q20DsBEeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_grFKsDsBEeOVJLg8WY9pxA" name="A_actor_usecase" memberEnd="_grFKsTsBEeOVJLg8WY9pxA _grFKtDsBEeOVJLg8WY9pxA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_grFKsTsBEeOVJLg8WY9pxA" name="actor" type="_LwJB0DsBEeOVJLg8WY9pxA" association="_grFKsDsBEeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_grFKsjsBEeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_grFKszsBEeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_grFKtDsBEeOVJLg8WY9pxA" name="usecase" type="_MaBsUDsBEeOVJLg8WY9pxA" association="_grFKsDsBEeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_grFKtTsBEeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_grFKtjsBEeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_kqX5gDr7EeOVJLg8WY9pxA" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lglIwDr7EeOVJLg8WY9pxA" name="Mitarbeiter"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nV6SsDr7EeOVJLg8WY9pxA" name="Lehrveransltung Verwalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tAB84Dr7EeOVJLg8WY9pxA" name="LV Anzeigen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_K5jxYDr8EeOVJLg8WY9pxA" general="_nV6SsDr7EeOVJLg8WY9pxA"/>
+    <include xmi:type="uml:Include" xmi:id="_o8smgDtMEeOgsdhmuv5meg" addition="_2OU4cDr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tyzdoDr7EeOVJLg8WY9pxA" name="LV Anlegen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_LRJK8Dr8EeOVJLg8WY9pxA" general="_nV6SsDr7EeOVJLg8WY9pxA"/>
+    <include xmi:type="uml:Include" xmi:id="_STcOYDsPEeOlF9lOSOJJIg" addition="_3UvG4Dr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2OU4cDr7EeOVJLg8WY9pxA" name="LV Löschen">
+    <generalization xmi:type="uml:Generalization" xmi:id="_jB4XEDsOEeOlF9lOSOJJIg" general="_nV6SsDr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2u09cDr7EeOVJLg8WY9pxA" name="LV Bearbeiten">
+    <generalization xmi:type="uml:Generalization" xmi:id="_uUUUoDsOEeOlF9lOSOJJIg" general="_nV6SsDr7EeOVJLg8WY9pxA"/>
+    <include xmi:type="uml:Include" xmi:id="_wY-7EDsOEeOlF9lOSOJJIg" addition="_tAB84Dr7EeOVJLg8WY9pxA"/>
+    <include xmi:type="uml:Include" xmi:id="_tQBncDtNEeOgsdhmuv5meg" addition="_3UvG4Dr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3UvG4Dr7EeOVJLg8WY9pxA" name="LV Speichern">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hL2gYDtMEeOgsdhmuv5meg" general="_nV6SsDr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KCN5sDr8EeOVJLg8WY9pxA" name="A_mitarbeiter_lehrveransltung verwalten" memberEnd="_KCN5sTr8EeOVJLg8WY9pxA _KCN5tDr8EeOVJLg8WY9pxA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KCN5sTr8EeOVJLg8WY9pxA" name="mitarbeiter" type="_lglIwDr7EeOVJLg8WY9pxA" association="_KCN5sDr8EeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KCN5sjr8EeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KCN5szr8EeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KCN5tDr8EeOVJLg8WY9pxA" name="lehrveransltung verwalten" type="_nV6SsDr7EeOVJLg8WY9pxA" association="_KCN5sDr8EeOVJLg8WY9pxA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KCN5tTr8EeOVJLg8WY9pxA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KCN5tjr8EeOVJLg8WY9pxA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SXyCMDsXEeOlF9lOSOJJIg" name="LV Ändern">
+    <generalization xmi:type="uml:Generalization" xmi:id="_VMrLsDsXEeOlF9lOSOJJIg" general="_2u09cDr7EeOVJLg8WY9pxA"/>
+  </packagedElement>
+</uml:Model>
