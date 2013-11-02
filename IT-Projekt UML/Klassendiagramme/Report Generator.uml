@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Co-W0EL1EeOzAfPbVMsGKw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_NCsjsEL1EeOzAfPbVMsGKw" name="AllAccountsOfAllCustomersReport">
+    <generalization xmi:type="uml:Generalization" xmi:id="_j16gAEL5EeOzAfPbVMsGKw" general="_N-oAcEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CMFiUEL8EeOzAfPbVMsGKw" name="serialVersionUID" visibility="public" isStatic="true">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C3ugUEL8EeOzAfPbVMsGKw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C344YEL8EeOzAfPbVMsGKw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NpXiIEL1EeOzAfPbVMsGKw" name="AllAccountsOfCustomersReport">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BwOoUEOiEeO1tuaixYOP6Q" general="_OqCU8EL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mET2sEOoEeO1tuaixYOP6Q" name="serialVersionUID" isStatic="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Nyb-kEL1EeOzAfPbVMsGKw" name="Column">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_57tlUEOwEeO1tuaixYOP6Q" name="serialVersionUID" isStatic="true"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6kyXgEOwEeO1tuaixYOP6Q" name="value"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7z4A0EOwEeO1tuaixYOP6Q" name="Column"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8BTY0EOwEeO1tuaixYOP6Q" name="Column">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_E4KEwEOxEeO1tuaixYOP6Q" name="string"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8Q4F4EOwEeO1tuaixYOP6Q" name="getValue"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8gt4sEOwEeO1tuaixYOP6Q" name="setValue"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8vQD8EOwEeO1tuaixYOP6Q" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_N4tlsEL1EeOzAfPbVMsGKw" name="CompositeParagraph">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vXeKgEOwEeO1tuaixYOP6Q" general="_OMNwgEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Kw_V0EOwEeO1tuaixYOP6Q" name="serialVersionUID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LAejUEOwEeO1tuaixYOP6Q" name="subParagraphs"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MD6WQEOwEeO1tuaixYOP6Q" name="addSubParagraph">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b1jqEEOwEeO1tuaixYOP6Q" name="simplaParagraph"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MR2roEOwEeO1tuaixYOP6Q" name="removeSubParagraph">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mFBHsEOwEeO1tuaixYOP6Q" name="simplaParagraph"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MeR-EEOwEeO1tuaixYOP6Q" name="getSubParagraph"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Mtqd4EOwEeO1tuaixYOP6Q" name="setNumParagraphs"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_M7xyYEOwEeO1tuaixYOP6Q" name="getParagraphAt"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NIoioEOwEeO1tuaixYOP6Q" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_N-oAcEL1EeOzAfPbVMsGKw" name="CompositeReport" isAbstract="true">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Av2wcEOiEeO1tuaixYOP6Q" general="_OWOBEEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hFEvEEMEEeOzAfPbVMsGKw" name="serialVersionUID" visibility="public" isStatic="true">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hzLLMEMEEeOzAfPbVMsGKw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hzLyQEMEEeOzAfPbVMsGKw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hzNAYEMEEeOzAfPbVMsGKw">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tc8qsEMEEeOzAfPbVMsGKw" name="subReports" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uDz2YEMEEeOzAfPbVMsGKw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uD0dcEMEEeOzAfPbVMsGKw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_uD1rkEMEEeOzAfPbVMsGKw">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Trc3AEMOEeO_mPAEfHB3sA" name="addSubReport"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_plZcAEOhEeO1tuaixYOP6Q" name="removeSubReport"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_seUw8EOhEeO1tuaixYOP6Q" name="getNumSubReports"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_w069wEOhEeO1tuaixYOP6Q" name="getSubReportAt"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OEFIMEL1EeOzAfPbVMsGKw" name="HTMLReportWriter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-FijoEO_EeO21MvAhVlGLg" general="_Oav7wEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YDo2oEO7EeO21MvAhVlGLg" name="reportText" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y3CCcEO7EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y3DQkEO7EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Y3FFwEO7EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZNvSQEO7EeO21MvAhVlGLg" name="resetReportText"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZYqI0EO7EeO21MvAhVlGLg" name="paragraph2HTML">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rZ_nUEO7EeO21MvAhVlGLg" name="p" type="_OMNwgEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZkKOMEO7EeO21MvAhVlGLg" name="paragraph2HTML">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3jAnkEO7EeO21MvAhVlGLg" name="p" type="_N4tlsEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZuGNUEO7EeO21MvAhVlGLg" name="paragraph2HTML">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6vdVcEO7EeO21MvAhVlGLg" name="p" type="_OjH0oEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Z5F8YEO7EeO21MvAhVlGLg" name="getHeader"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aB3d4EO7EeO21MvAhVlGLg" name="getTrailer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aL_qQEO7EeO21MvAhVlGLg" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DTGKcEO8EeO21MvAhVlGLg" name="r" type="_NpXiIEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_aUYKMEO7EeO21MvAhVlGLg" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FaxBkEO8EeO21MvAhVlGLg" name="r" type="_NCsjsEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_adZjUEO7EeO21MvAhVlGLg" name="getReportText"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OMNwgEL1EeOzAfPbVMsGKw" name="Paragraph">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A7f3YEOwEeO1tuaixYOP6Q" name="serialVersionUID"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ORUS8EL1EeOzAfPbVMsGKw" name="PlainTextReportWriter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_BgEJwEPAEeO21MvAhVlGLg" general="_Oav7wEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XiBagEO_EeO21MvAhVlGLg" name="reportText" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xxk5cEO_EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XxlggEO_EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_XxnVsEO_EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_X9qNoEO_EeO21MvAhVlGLg" name="resetReportText"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YMRRYEO_EeO21MvAhVlGLg" name="getHeader"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YYgWkEO_EeO21MvAhVlGLg" name="getTrailer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YnTAgEO_EeO21MvAhVlGLg" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mNtL0EO_EeO21MvAhVlGLg" name="r" type="_NpXiIEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y0aPcEO_EeO21MvAhVlGLg" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_n50IUEO_EeO21MvAhVlGLg" name="r" type="_NCsjsEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZBpaMEO_EeO21MvAhVlGLg" name="getReportText"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OWOBEEL1EeOzAfPbVMsGKw" name="Report">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JFsHEEOvEeO1tuaixYOP6Q" name="serialVersionUID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_J7HTMEOvEeO1tuaixYOP6Q" name="imprint: Paragraph"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KkeZQEOvEeO1tuaixYOP6Q" name="headData"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_K2pHUEOvEeO1tuaixYOP6Q" name="title"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ToCrgEOvEeO1tuaixYOP6Q" name="created"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L7aXAEOvEeO1tuaixYOP6Q" name="getImprint"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MNj28EOvEeO1tuaixYOP6Q" name="setImprint"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Md6AEEOvEeO1tuaixYOP6Q" name="getHeadData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Mv5H8EOvEeO1tuaixYOP6Q" name="setHeadData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NAa3QEOvEeO1tuaixYOP6Q" name="getTitle"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NR96QEOvEeO1tuaixYOP6Q" name="setTitle"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Njw04EOvEeO1tuaixYOP6Q" name="getCreated"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_N0ib0EOvEeO1tuaixYOP6Q" name="setCreated"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Oav7wEL1EeOzAfPbVMsGKw" name="ReportWriter">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZWNdUEOxEeO1tuaixYOP6Q" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NjQoIEO7EeO21MvAhVlGLg" name="allAccountsOfCustomerReport"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Zjj80EOxEeO1tuaixYOP6Q" name="process">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_glzbEEOyEeO1tuaixYOP6Q" name="allAccountsOfAllCustomersReport"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OfLIwEL1EeOzAfPbVMsGKw" name="Row">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HBVhUEO9EeO21MvAhVlGLg" name="serialVersionUID" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HWJTsEO9EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HWJ6wEO9EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HWMXAEO9EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_He8DUEO9EeO21MvAhVlGLg" name="columns" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HzbsoEO9EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hzc6wEO9EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HzeI4EO9EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eQH_UEPBEeO21MvAhVlGLg" name="reportGeneratorImpl" type="_ZfzgYEPAEeO21MvAhVlGLg" association="_eQJNcEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eQH_UUPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eQH_UkPBEeO21MvAhVlGLg" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Il-j4EO9EeO21MvAhVlGLg" name="addColumn">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JLMe4EO_EeO21MvAhVlGLg" name="c" type="_Nyb-kEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JfgM4EO9EeO21MvAhVlGLg" name="removeColumn">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_K-fogEO_EeO21MvAhVlGLg" name="c" type="_Nyb-kEL1EeOzAfPbVMsGKw"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JuZkgEO9EeO21MvAhVlGLg" name="getColumns"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_J_D2sEO9EeO21MvAhVlGLg" name="getNumColumns"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KPrFkEO9EeO21MvAhVlGLg" name="getColumnAt">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NTWnEEO_EeO21MvAhVlGLg" name="in"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OjH0oEL1EeOzAfPbVMsGKw" name="SimpleParagraph">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oEnKcEO8EeO21MvAhVlGLg" general="_OMNwgEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pZvxYEO8EeO21MvAhVlGLg" name="serialVersionUID" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_po4ZkEO8EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_po5AoEO8EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_po610EO8EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pxmQsEO8EeO21MvAhVlGLg" name="text" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p87W8EO8EeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p88lEEO8EeO21MvAhVlGLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_p8_BUEO8EeO21MvAhVlGLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qxb9EEO8EeO21MvAhVlGLg" name="SimpleParagraph"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rAd3kEO8EeO21MvAhVlGLg" name="SimpleParagraph">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_51fyIEO8EeO21MvAhVlGLg" name="value"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rNb8kEO8EeO21MvAhVlGLg" name="getText"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rZWRoEO8EeO21MvAhVlGLg" name="setText">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9DSj0EO8EeO21MvAhVlGLg" name="text"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rmR6YEO8EeO21MvAhVlGLg" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OqCU8EL1EeOzAfPbVMsGKw" name="SimpleReport">
+    <generalization xmi:type="uml:Generalization" xmi:id="_AZbNcEOiEeO1tuaixYOP6Q" general="_OWOBEEL1EeOzAfPbVMsGKw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wrJSgEOoEeO1tuaixYOP6Q" name="serialVersionUID"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ynZj0EOoEeO1tuaixYOP6Q" name="table"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0uPUgEOoEeO1tuaixYOP6Q" name="addRow"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0_rp0EOoEeO1tuaixYOP6Q" name="removeRow"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1QHSgEOoEeO1tuaixYOP6Q" name="getRows"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oIDqoEL5EeOzAfPbVMsGKw" name="Serializable"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZfzgYEPAEeO21MvAhVlGLg" name="ReportGeneratorImpl"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sAqMcEPAEeO21MvAhVlGLg" name="row_hTMLReportWriter_1" memberEnd="_sAqMcUPAEeO21MvAhVlGLg _sAoXQEPAEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sAqMcUPAEeO21MvAhVlGLg" name="row" type="_OfLIwEL1EeOzAfPbVMsGKw" association="_sAqMcEPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sAqMckPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sAqMc0PAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sAoXQEPAEeO21MvAhVlGLg" name="hTMLReportWriter" type="_OEFIMEL1EeOzAfPbVMsGKw" association="_sAqMcEPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sAoXQUPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sAoXQkPAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xtB5YEPAEeO21MvAhVlGLg" name="simpleReport_row_1" memberEnd="_xtB5YUPAEeO21MvAhVlGLg _xtArQEPAEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xtB5YUPAEeO21MvAhVlGLg" name="simpleReport" type="_OqCU8EL1EeOzAfPbVMsGKw" association="_xtB5YEPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xtB5YkPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xtB5Y0PAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xtArQEPAEeO21MvAhVlGLg" name="row" type="_OfLIwEL1EeOzAfPbVMsGKw" association="_xtB5YEPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xtArQUPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xtArQkPAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0BkH0EPAEeO21MvAhVlGLg" name="row_plainTextReportWriter_1" memberEnd="_0BkH0UPAEeO21MvAhVlGLg _0BjgwEPAEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0BkH0UPAEeO21MvAhVlGLg" name="row" type="_OfLIwEL1EeOzAfPbVMsGKw" association="_0BkH0EPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0BkH0kPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0BkH00PAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0BjgwEPAEeO21MvAhVlGLg" name="plainTextReportWriter" type="_ORUS8EL1EeOzAfPbVMsGKw" association="_0BkH0EPAEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0BjgwUPAEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0BjgwkPAEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GDHBsEPBEeO21MvAhVlGLg" name="row_column_1" memberEnd="_GDHBsUPBEeO21MvAhVlGLg _GDGaoEPBEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GDHBsUPBEeO21MvAhVlGLg" name="row" type="_OfLIwEL1EeOzAfPbVMsGKw" association="_GDHBsEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GDHBskPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GDHBs0PBEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GDGaoEPBEeO21MvAhVlGLg" name="column" type="_Nyb-kEL1EeOzAfPbVMsGKw" association="_GDHBsEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GDGaoUPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GDGaokPBEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KM9zAEPBEeO21MvAhVlGLg" name="column_reportGeneratorImpl_1" memberEnd="_KM9zAUPBEeO21MvAhVlGLg _KM9L8EPBEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KM9zAUPBEeO21MvAhVlGLg" name="column" type="_Nyb-kEL1EeOzAfPbVMsGKw" association="_KM9zAEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KM9zAkPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KM9zA0PBEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KM9L8EPBEeO21MvAhVlGLg" name="reportGeneratorImpl" type="_ZfzgYEPAEeO21MvAhVlGLg" association="_KM9zAEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KM9L8UPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KM9L8kPBEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eQJNcEPBEeO21MvAhVlGLg" name="row_reportGeneratorImpl_1" memberEnd="_eQJ0gEPBEeO21MvAhVlGLg _eQH_UEPBEeO21MvAhVlGLg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eQJ0gEPBEeO21MvAhVlGLg" name="row" type="_OfLIwEL1EeOzAfPbVMsGKw" association="_eQJNcEPBEeO21MvAhVlGLg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eQJ0gUPBEeO21MvAhVlGLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eQJ0gkPBEeO21MvAhVlGLg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
