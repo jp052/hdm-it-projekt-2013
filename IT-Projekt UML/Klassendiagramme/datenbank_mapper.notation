@@ -29,54 +29,8 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_ehlnzkX7EeO9VNdFVPpoQg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ehlnz0X7EeO9VNdFVPpoQg"/>
     </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_Oj4YcEX8EeOnMaJzfC7wLA" visible="false" type="compartment_shape_display">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OkFz0EX8EeOnMaJzfC7wLA" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OkFz0UX8EeOnMaJzfC7wLA" key="mutable" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Oj4YcUX8EeOnMaJzfC7wLA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Oj4YckX8EeOnMaJzfC7wLA"/>
-    </children>
     <element xmi:type="uml:Class" href="datenbank_mapper.uml#_ehObYEX7EeO9VNdFVPpoQg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ehjLgUX7EeO9VNdFVPpoQg" x="362" y="100"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_PU9QEEX8EeOnMaJzfC7wLA" type="2008">
-    <children xmi:type="notation:DecorationNode" xmi:id="_PU93IEX8EeOnMaJzfC7wLA" type="5029"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_PU93IUX8EeOnMaJzfC7wLA" type="7017">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PU-eOkX8EeOnMaJzfC7wLA" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PU_FQEX8EeOnMaJzfC7wLA" key="showTitle" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_PU93IkX8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_PU93I0X8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_PU93JEX8EeOnMaJzfC7wLA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PU93JUX8EeOnMaJzfC7wLA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_PU-eMEX8EeOnMaJzfC7wLA" type="7018">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PU_FQUX8EeOnMaJzfC7wLA" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PU_FQkX8EeOnMaJzfC7wLA" key="showTitle" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_PU-eMUX8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_PU-eMkX8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_PU-eM0X8EeOnMaJzfC7wLA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PU-eNEX8EeOnMaJzfC7wLA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_PU-eNUX8EeOnMaJzfC7wLA" type="7019">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PU_FQ0X8EeOnMaJzfC7wLA" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PU_FREX8EeOnMaJzfC7wLA" key="showTitle" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_PU-eNkX8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_PU-eN0X8EeOnMaJzfC7wLA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_PU-eOEX8EeOnMaJzfC7wLA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PU-eOUX8EeOnMaJzfC7wLA"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_PVHBEEX8EeOnMaJzfC7wLA" visible="false" type="compartment_shape_display">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PVHBE0X8EeOnMaJzfC7wLA" source="PapyrusCSSForceValue">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PVHBFEX8EeOnMaJzfC7wLA" key="mutable" value="true"/>
-      </eAnnotations>
-      <styles xmi:type="notation:TitleStyle" xmi:id="_PVHBEUX8EeOnMaJzfC7wLA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PVHBEkX8EeOnMaJzfC7wLA"/>
-    </children>
-    <element xmi:type="uml:Class" href="datenbank_mapper.uml#_PSz7AEX8EeOnMaJzfC7wLA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PU9QEUX8EeOnMaJzfC7wLA" x="512" y="261"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ehjLgUX7EeO9VNdFVPpoQg" x="36" y="64"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_dgbswEX7EeO9VNdFVPpoQg"/>
   <element xmi:type="uml:Model" href="datenbank_mapper.uml#_dgJ_8EX7EeO9VNdFVPpoQg"/>
