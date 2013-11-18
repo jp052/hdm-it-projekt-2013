@@ -1,4 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_dgJ_8EX7EeO9VNdFVPpoQg" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_ehObYEX7EeO9VNdFVPpoQg" name="Class1"/>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_dgJ_8EX7EeO9VNdFVPpoQg" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_ehObYEX7EeO9VNdFVPpoQg" name="DBVerbindung">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KlqmsEYNEeOz6Oz73HAr9A" name="con" visibility="public" type="_vutLUEYMEeORYc-JtH_MOg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LeGDgEYNEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LeGqkEYNEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LeHRoEYNEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O1pOIEYNEeOz6Oz73HAr9A" name="url" visibility="public" type="_Q5nRAEYNEeOz6Oz73HAr9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PwYYEEYNEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwY_IEYNEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_PwZmMEYNEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CwW3UEYNEeOz6Oz73HAr9A" name="verbinden">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IVtWQEYNEeOz6Oz73HAr9A" name="" type="_vutLUEYMEeORYc-JtH_MOg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_vutLUEYMEeORYc-JtH_MOg" name="Connection"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Q5nRAEYNEeOz6Oz73HAr9A" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Wew7oEYNEeOz6Oz73HAr9A" name="RaumMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="_A6IZcFBpEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HlHxYEYOEeOz6Oz73HAr9A" name="raumMapper" visibility="private" type="_Wew7oEYNEeOz6Oz73HAr9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MbDlkEYOEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MbDlkUYOEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MbEMoEYOEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WXv4MEYOEeOz6Oz73HAr9A" name="anlegenRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_c7CmEEYOEeOz6Oz73HAr9A" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fMJGAEYOEeOz6Oz73HAr9A" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oXmI8EYOEeOz6Oz73HAr9A" name="modifizierenRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tG-pMEYOEeOz6Oz73HAr9A" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u5pgsEYOEeOz6Oz73HAr9A" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0dpfUEYPEeOz6Oz73HAr9A" name="loeschenRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4bYgMEYPEeOz6Oz73HAr9A" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7Qwx4EYPEeOz6Oz73HAr9A" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-CQpIEYPEeOz6Oz73HAr9A" name="findeIdRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_M1RKcEYQEeOz6Oz73HAr9A" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UYzNUEYQEeOz6Oz73HAr9A" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8N59IErREeOPhK0yPfRkLg" name="findeNameRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S4HrQErSEeOPhK0yPfRkLg" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bayP4ErSEeOPhK0yPfRkLg" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OCZpgFBkEeOtv_50aCi8aA" name="RaumMapper" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZQfSkFBkEeOtv_50aCi8aA" name="raumMapper">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gfblgFBkEeOtv_50aCi8aA" name="" type="_Wew7oEYNEeOz6Oz73HAr9A" isUnique="false" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2TS6cFBkEeOtv_50aCi8aA" name="findeAlle">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7Qt2sFBkEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" isUnique="false" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_G9RkcFBlEeOtv_50aCi8aA" name="findeVL">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bqfaYFBlEeOtv_50aCi8aA" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hQgnsFBlEeOtv_50aCi8aA" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pPeM4FBmEeOtv_50aCi8aA" name="belegt">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xoQcwFBmEeOtv_50aCi8aA" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7V_GUFBmEeOtv_50aCi8aA" name="raum" type="_ZZ7PwEYOEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5cr3EEYNEeOz6Oz73HAr9A" name="ZeitslotMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="__sik8FBoEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lMnIwEYQEeOz6Oz73HAr9A" name="zeitslotMapper" visibility="private" type="_5cr3EEYNEeOz6Oz73HAr9A" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oAbUMEYQEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oAb7QEYQEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_oAciUEYQEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vWohMEYaEeOz6Oz73HAr9A" name="anlegenZeitslot">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jUgWoEYbEeOz6Oz73HAr9A" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lbzaUEYbEeOz6Oz73HAr9A" name="zeitslot" type="_VBj1cEYbEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xgaRIEYaEeOz6Oz73HAr9A" name="modifizierenZeitslot">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rjOEgEYbEeOz6Oz73HAr9A" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2QnAEYbEeOz6Oz73HAr9A" name="zeitslot" type="_VBj1cEYbEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_y7l1sEYaEeOz6Oz73HAr9A" name="loeschenZeitslot">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0_ysoEYbEeOz6Oz73HAr9A" name="zeitslot" type="_VBj1cEYbEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2kzioEYbEeOz6Oz73HAr9A" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0N05oEYaEeOz6Oz73HAr9A" name="findeIdZeitslot">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7IoTIEYbEeOz6Oz73HAr9A" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BfZn8EYcEeOz6Oz73HAr9A" name="zeitslot" type="_VBj1cEYbEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AKcEIErSEeOPhK0yPfRkLg" name="findeNameZeitslot">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iQimwErSEeOPhK0yPfRkLg" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jy9bwErSEeOPhK0yPfRkLg" name="zeitslot" type="_VBj1cEYbEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_k7Y-AFBlEeOtv_50aCi8aA" name="ZeitslotMapper" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_n8ewcFBlEeOtv_50aCi8aA" name="zeitslotMapper">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sOeKEFBlEeOtv_50aCi8aA" name="" type="_5cr3EEYNEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u20FUFBlEeOtv_50aCi8aA" name="findeAlle">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xJf5oFBlEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ZZ7PwEYOEeOz6Oz73HAr9A" name="Raum"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_VBj1cEYbEeOz6Oz73HAr9A" name="Zeitslot"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HPglYEYcEeOz6Oz73HAr9A" name="DozentMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9qVcoFBoEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tmT2QEYeEeOz6Oz73HAr9A" name="dozentMapper" visibility="private" type="_HPglYEYcEeOz6Oz73HAr9A" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u7hVsEYeEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u7h8wEYeEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_u7ij0EYeEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PsBesEYcEeOz6Oz73HAr9A" name="anlegenDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kmpegEYcEeOz6Oz73HAr9A" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ml9D0EYcEeOz6Oz73HAr9A" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R30n4EYcEeOz6Oz73HAr9A" name="modifizierenDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hpLAwEYcEeOz6Oz73HAr9A" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jH6PoEYcEeOz6Oz73HAr9A" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TpjEMEYcEeOz6Oz73HAr9A" name="loeschenDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ejMuUEYcEeOz6Oz73HAr9A" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" isUnique="false" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_f-iD4EYcEeOz6Oz73HAr9A" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VqgPUEYcEeOz6Oz73HAr9A" name="findeIdDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bFJ6IEYcEeOz6Oz73HAr9A" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" isUnique="false" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cto64EYcEeOz6Oz73HAr9A" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_B2y4QErSEeOPhK0yPfRkLg" name="findeNameDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qrxtsErSEeOPhK0yPfRkLg" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sG62AErSEeOPhK0yPfRkLg" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6DCtMFBlEeOtv_50aCi8aA" name="DozentMapper" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DSNLcFBmEeOtv_50aCi8aA" name="dozentMapper">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MJiYgFBmEeOtv_50aCi8aA" name="" type="_HPglYEYcEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RX1CUFBmEeOtv_50aCi8aA" name="findeAlle">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Yi_BcFBmEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZQZhEFBmEeOtv_50aCi8aA" name="findeVL">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kYJ4oFBmEeOtv_50aCi8aA" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_npsh4FBmEeOtv_50aCi8aA" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9ai_EFBmEeOtv_50aCi8aA" name="findeRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AxnokFBnEeOtv_50aCi8aA" name="dozent" type="_LHWZoEYcEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EYdzcFBnEeOtv_50aCi8aA" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_LHWZoEYcEeOz6Oz73HAr9A" name="Dozent"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eF41UEYeEeOz6Oz73HAr9A" name="LehrveranstaltungMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="_82m5oFBoEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rvpPkEYeEeOz6Oz73HAr9A" name="lvMapper" visibility="private" type="_eF41UEYeEeOz6Oz73HAr9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tWw-YEYeEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tWw-YUYeEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tWxlcEYeEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4z8zYEYeEeOz6Oz73HAr9A" name="anlegenLV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_NFrAIEYfEeOz6Oz73HAr9A" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_S3PWIEYfEeOz6Oz73HAr9A" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_67rU4EYeEeOz6Oz73HAr9A" name="modifizierenLV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Oc5RwEYfEeOz6Oz73HAr9A" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_USDuUEYfEeOz6Oz73HAr9A" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8pHuIEYeEeOz6Oz73HAr9A" name="loeschenLV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PyFjEEYfEeOz6Oz73HAr9A" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_VyIZ8EYfEeOz6Oz73HAr9A" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-ABPoEYeEeOz6Oz73HAr9A" name="findeIdLV" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFQbIEYfEeOz6Oz73HAr9A" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_XQPWsEYfEeOz6Oz73HAr9A" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DO4skErSEeOPhK0yPfRkLg" name="findeNameLV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uNxNwErSEeOPhK0yPfRkLg" name="" type="_jfdiEEYeEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vjKTYErSEeOPhK0yPfRkLg" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JDjCgFBnEeOtv_50aCi8aA" name="LehrveranstaltungMapper" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LsxHgFBnEeOtv_50aCi8aA" name="lvMapper">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Pv8pEFBnEeOtv_50aCi8aA" name="" type="_eF41UEYeEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U5tYMFBnEeOtv_50aCi8aA" name="findeAlle">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ajLiIFBnEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bstWAFBnEeOtv_50aCi8aA" name="findeDozent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_maIiAFBnEeOtv_50aCi8aA" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_o6g0EFBnEeOtv_50aCi8aA" name="" type="_LHWZoEYcEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qFgnkFBnEeOtv_50aCi8aA" name="findeTermin">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2qbgsFBnEeOtv_50aCi8aA" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-f0voFBnEeOtv_50aCi8aA" name="" type="_VBj1cEYbEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_saQ4cFBnEeOtv_50aCi8aA" name="findeRaum">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Bgr4kFBoEeOtv_50aCi8aA" name="lv" type="_jfdiEEYeEeOz6Oz73HAr9A"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_D3WN8FBoEeOtv_50aCi8aA" name="" type="_ZZ7PwEYOEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_jfdiEEYeEeOz6Oz73HAr9A" name="Lehrveranstaltung"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_479DYEYfEeOz6Oz73HAr9A" name="SemesterverbandMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8L5vwFBoEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H8ki4EYgEeOz6Oz73HAr9A" name="svMapper" visibility="private" type="_479DYEYfEeOz6Oz73HAr9A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JND6YEYgEeOz6Oz73HAr9A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JND6YUYgEeOz6Oz73HAr9A" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_JNFIgEYgEeOz6Oz73HAr9A">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JjnZMEYgEeOz6Oz73HAr9A" name="anlegenSV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_au3kQEYgEeOz6Oz73HAr9A" name="" type="_DFKIAEYgEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hpf0EEYgEeOz6Oz73HAr9A" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Kr1lgEYgEeOz6Oz73HAr9A" name="modifizierenSV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cJTh8EYgEeOz6Oz73HAr9A" name="" type="_DFKIAEYgEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jKbbUEYgEeOz6Oz73HAr9A" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L50bkEYgEeOz6Oz73HAr9A" name="loeschenSV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dUb4UEYgEeOz6Oz73HAr9A" name="" type="_DFKIAEYgEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kWIZcEYgEeOz6Oz73HAr9A" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MqUEYEYgEeOz6Oz73HAr9A" name="findeIdSV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_es-_oEYgEeOz6Oz73HAr9A" name="" type="_DFKIAEYgEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_lfGMoEYgEeOz6Oz73HAr9A" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EsiWUErSEeOPhK0yPfRkLg" name="findeNameSV">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yiRI0ErSEeOPhK0yPfRkLg" name="" type="_DFKIAEYgEeOz6Oz73HAr9A" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0Fw74ErSEeOPhK0yPfRkLg" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GXmkMFBoEeOtv_50aCi8aA" name="SemesterverbandMapper" visibility="protected"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LUnQwFBoEeOtv_50aCi8aA" name="svMapper">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YEQzMFBoEeOtv_50aCi8aA" name="" type="_479DYEYfEeOz6Oz73HAr9A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZBG18FBoEeOtv_50aCi8aA" name="findeAlle">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eMjnIFBoEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ftB7YFBoEeOtv_50aCi8aA" name="findeVL">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mE0j4FBoEeOtv_50aCi8aA" name="" type="_yqp_0FBkEeOtv_50aCi8aA" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tIQKYFBoEeOtv_50aCi8aA" name="sv" type="_DFKIAEYgEeOz6Oz73HAr9A"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_DFKIAEYgEeOz6Oz73HAr9A" name="Semesterverband"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1ED6sErTEeOPhK0yPfRkLg" name="DurchfuehrungMapper">
+    <generalization xmi:type="uml:Generalization" xmi:id="_6U_RcFBoEeOtv_50aCi8aA" general="_ehObYEX7EeO9VNdFVPpoQg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9IM60ErUEeOPhK0yPfRkLg" name="dfMapper" visibility="private" type="_1ED6sErTEeOPhK0yPfRkLg" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9tZSkErUEeOPhK0yPfRkLg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9tagsErUEeOPhK0yPfRkLg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9tbu0ErUEeOPhK0yPfRkLg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ao_WcErUEeOPhK0yPfRkLg" name="anlegenDurchfuehrung">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Tw5bcErUEeOPhK0yPfRkLg" name="" type="_XdMuEErUEeOPhK0yPfRkLg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e-3IsErUEeOPhK0yPfRkLg" name="df" type="_XdMuEErUEeOPhK0yPfRkLg" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FBjSIErUEeOPhK0yPfRkLg" name="modifizierenDurchfuehrung">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_h5fGwErUEeOPhK0yPfRkLg" name="" type="_XdMuEErUEeOPhK0yPfRkLg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xn45UErUEeOPhK0yPfRkLg" name="df" type="_XdMuEErUEeOPhK0yPfRkLg" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HLGYkErUEeOPhK0yPfRkLg" name="loeschenDurchfuehrung">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jpwxkErUEeOPhK0yPfRkLg" name="" type="_XdMuEErUEeOPhK0yPfRkLg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rfL1sErUEeOPhK0yPfRkLg" name="df" type="_XdMuEErUEeOPhK0yPfRkLg"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JZeUoErUEeOPhK0yPfRkLg" name="findeIdDurchfuehrung">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kteRUErUEeOPhK0yPfRkLg" name="" type="_XdMuEErUEeOPhK0yPfRkLg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qKkMIErUEeOPhK0yPfRkLg" name="df" type="_XdMuEErUEeOPhK0yPfRkLg"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K5G7YErUEeOPhK0yPfRkLg" name="findeNameDurchfuehrung">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mPA8kErUEeOPhK0yPfRkLg" name="" type="_XdMuEErUEeOPhK0yPfRkLg" isUnique="false" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_oBAeoErUEeOPhK0yPfRkLg" name="df" type="_XdMuEErUEeOPhK0yPfRkLg" isUnique="false"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_16TO0FBoEeOtv_50aCi8aA" name="DurchfuehrungMapper" visibility="protected"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_9IAjAErTEeOPhK0yPfRkLg" name="Durchführung"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_XdMuEErUEeOPhK0yPfRkLg" name="Durchfuehrung"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_yqp_0FBkEeOtv_50aCi8aA" name="Vector"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_UkJp0FBlEeOtv_50aCi8aA" name="Lehrveranstaltung"/>
 </uml:Model>
